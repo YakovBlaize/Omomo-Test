@@ -1,20 +1,23 @@
-Background: 
-        Given The user Bobo
-        And metamask wallet
-        And PC
+Feature: User connect wallet flow
+
+Background:
+        Given The user Jo
+        And Near wallet
+        And Chrome browser
 
 
-Scenario: User Bobo gonna connect wallet metamask to OMOMO
-        Given User Bobo and wallet metamask
-        When User Bobo connects the wallet
+Scenario: User Jo gonna connect wallet - positive flow <Checking the wallet connection>
+        Given User Jo and wallet Near
+        When User Jo connects the wallet
         Then Success wallet connected
-        And Wallet displayed MOMO
+        And Wallet displayed on the OMOMO home page
 
 
-Scenario: User Bobo disconnected wallet
-        Given User Bobo and wallet metamask
-        When User Bob disconnect wallet
+Scenario: User Jo gonna disconnected wallet - positive flow <Checking the wallet disconnection>
+        Given User Jo and wallet Near
+        When User Jo disconnect wallet
         Then Success wallet disconnect
-        And Wallet not displayed OMOMO
+        And Wallet not displayed on the OMOMO home page
+
 
 
