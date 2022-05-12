@@ -13,3 +13,8 @@ Scenario: User Bobo gonna connect wallet metamask to OMOMO
 
 Scenario: User Bobo disconnected wallet
         Given User Bobo and wallet metamask
+        When User Bob disconnect wallet
+        Then Success wallet disconnect
+        And Wallet not displayed OMOMO
+
+
