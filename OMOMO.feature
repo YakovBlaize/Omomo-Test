@@ -12,4 +12,4 @@ Scenario: User Bobo gonna connect wallet metamask to OMOMO
 
 
 Scenario: User Bobo disconnected wallet
-        Given
+        Given User Bobo and wallet metamask
