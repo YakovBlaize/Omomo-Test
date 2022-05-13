@@ -21,3 +21,4 @@ Scenario: User Jo gonna disconnected wallet - positive flow <Checking the wallet
 
 
 
+
