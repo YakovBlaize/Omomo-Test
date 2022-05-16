@@ -23,3 +23,6 @@ near view controller_beta.nearlend.testnet view_accounts '{"user_ids": ["yakovf.
 
 
 {"account_id":"yakovf.testnet","public_key":"ed25519:6upzdYLikdTT5seY7u4GYFZ1ffqUu18CyHgWEe3gwbCZ","private_key":"ed25519:5hTN6urZ6kNvAmTDfYa3ihubUBuDPeuovcbuyYMcPwkCuT6pdNfmiAPUHgUEyqxKsmHU7RsdKCWD74vWzLr7Rx3P"}
+
+
+Account check      ls  ~/.near-credentials/testnet/
