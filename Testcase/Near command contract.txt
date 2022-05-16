@@ -1,0 +1,25 @@
+near call weth_beta.nearlend.testnet mint '{"account_id": "yakovf.testnet", "amount": "10000000000000000000000000"}' --accountId nearlend.testnet "$@"
+near call wnear_beta.nearlend.testnet mint '{"account_id": "yakovf.testnet", "amount": "10000000000000000000000000"}' --accountId nearlend.testnet "$@"
+near call usdt_beta.nearlend.testnet mint '{"account_id": "yakovf.testnet", "amount": "10000000000000000000000000"}' --accountId nearlend.testnet "$@"
+
+
+
+
+near view controller_beta.nearlend.testnet view_markets '{}'
+
+near view weth_beta.nearlend.testnet ft_balance_of '{"account_id": "yakovf.testnet"}'
+near view wnear_beta.nearlend.testnet ft_balance_of '{"account_id": "yakovf.testnet"}'
+near view usdt_beta.nearlend.testnet ft_balance_of '{"account_id": "yakovf.testnet"}'
+
+
+
+near view weth_beta.nearlend.testnet ft_balance_of '{"account_id": "dweth_beta.nearlend.testnet"}'
+near view dweth_beta.nearlend.testnet view_market_data '{"ft_balance": "1419923276675391296133262228"}'
+
+
+near view controller_beta.nearlend.testnet view_accounts '{"user_ids": ["yakovf.testnet"]}'
+
+
+
+
+{"account_id":"yakovf.testnet","public_key":"ed25519:6upzdYLikdTT5seY7u4GYFZ1ffqUu18CyHgWEe3gwbCZ","private_key":"ed25519:5hTN6urZ6kNvAmTDfYa3ihubUBuDPeuovcbuyYMcPwkCuT6pdNfmiAPUHgUEyqxKsmHU7RsdKCWD74vWzLr7Rx3P"}
