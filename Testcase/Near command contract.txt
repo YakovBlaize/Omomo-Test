@@ -32,3 +32,4 @@ Mint:
 near call weth_beta.nearlend.testnet mint '{"account_id": "omotest.testnet", "amount": "10000000000000000000000000"}' --accountId yakovf.testnet "$@"
 near call wnear_beta.nearlend.testnet mint '{"account_id": "omotest.testnet", "amount": "10000000000000000000000000"}' --accountId yakovf.testnet "$@"
 near call usdt_beta.nearlend.testnet mint '{"account_id": "omotest.testnet", "amount": "10000000000000000000000000"}' --accountId yakovf.testnet "$@"
+.
